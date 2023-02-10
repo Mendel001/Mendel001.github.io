@@ -30,47 +30,32 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-    createPlatform(10, 200, 100, 28)
-    createPlatform(100, 200, 100, 28)
-    createPlatform(200, 200, 100, 28)
-    createPlatform(300, 200, 100, 28)
-    createPlatform(400, 200, 100, 28)
-    createPlatform(500, 200, 100, 28)
-    createPlatform(600, 200, 100, 28)
-    createPlatform(700, 200, 100, 28)
-    createPlatform(800, 200, 100, 28)
-    createPlatform(900, 200, 100, 28)
-    createPlatform(1000, 200, 100, 28)
-
-    
-    
-    
-    
-    
+    createPlatform(10, 200, 290, 15)
+    createPlatform(300, 300, 100, 15)
+    createPlatform(290, 210, 10, 105)
+    createPlatform(400, 300, 100, 15)
+    createPlatform(500, 210, 10, 105)
+    createPlatform(500, 200, 700, 15)
+    createPlatform(180, 400, 1200, 15)
+    createPlatform(10, 600, 1200, 15)
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
     
-    createCollectable("database", 500, 300)
-    createCollectable("steve", 150, 200)
-    createCollectable("diamond", 900, 300)
-    
-    
-    
+    createCollectable("database", 380, 240, 0, 0)
+    createCollectable("steve", 100, 650, 0)
+    createCollectable("diamond", 700, 300, 0)
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
 
-    createCannon("left", 600, 1000)
-
-
-
-
-
+    createCannon("right", 330, 1500)
+    createCannon("top", 770, 1000)
+    createCannon("left", 500, 1500)
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
