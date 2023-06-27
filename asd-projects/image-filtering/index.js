@@ -52,7 +52,7 @@ function applyFilter(filterFunction) {
 
 // TODO 7: Create the applyFilterNoBackground function
 function applyFilterNoBackground(filterFunction) {
-  var backgroundColor = image[150];
+  var backgroundColor = image[150][150];
 
   for (var i = 0; i < image.length; i++) {
 
